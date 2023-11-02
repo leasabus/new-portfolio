@@ -19,7 +19,7 @@ export const ContactForm = () => {
 
   if (state.succeeded) {
     return (
-      <div className="flex flex-col items-start text-terciary animate__animated animate_fadeIn">
+      <div className="flex flex-col items-center md:items-start text-terciary">
         <span className="text-terciary font-bold text-3xl">Thank you!</span>
         <span className="text-xl text-text mt-4">
           I will get in touch with you.
@@ -68,7 +68,7 @@ export const ContactForm = () => {
           type="email"
           value={formData.email}
           placeholder="Email"
-          className=" rounded p-2 bg-terciary"
+          className=" rounded p-2 bg-terciary text-primary w-[300px] md:w-[350px]"
         />
 
         <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -81,7 +81,7 @@ export const ContactForm = () => {
           value={formData.message}
           cols={30}
           rows={5}
-          className=" bg-terciary rounded"
+          className=" bg-terciary rounded text-primary w-[300px] md:w-[350px]"
         ></textarea>
 
         {formData.message.length > 300 ? (
