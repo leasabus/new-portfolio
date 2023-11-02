@@ -5,7 +5,7 @@ export const Home = () => {
         className="text-terciary mt-32 h-[300px] flex items-center justify-center md:items-start md:justify-start flex-col tracking-wider"
         id="about"
       >
-        <h1 className="text-4xl md:text-5xl font-bold">Hello, hola</h1>
+        <h1 className="text-4xl md:text-5xl font-bold">Hello</h1>
         <h2 className="text-3xl md:text-4xl font-bold mt-4">
           I'm <span className="text-secondary font-bold">Leandro</span>
         </h2>
