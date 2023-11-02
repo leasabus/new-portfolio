@@ -18,9 +18,17 @@ export const Modal = ({ open, onClose, proyectData }: Props) => {
           className="bg-[#343a40] w-[350px] md:w-[500px] h-[400px] md:h-[450px] rounded-xl flex flex-col justify-center items-center my-auto"
           key={proyectData.id}
         >
-          <h1 className=" mt-4 md:mt-8 text-2xl font-bold  text-secondary">
-            {proyectData.proyect}
-          </h1>
+          <div className="flex flex-row ">
+            <button
+              onClick={() => onClose()}
+              className="btn absolute top-[13%] md:top-[15%] left-[85%] md:left-[65%]  "
+            >
+              <AiFillCloseCircle size={28} />
+            </button>
+            <h1 className=" mt-4 md:mt-8 text-2xl font-bold  text-secondary">
+              {proyectData.proyect}
+            </h1>
+          </div>
           <span className=" mt-1 md:mt-6 px-4 md:px-12 py-4 ">
             {proyectData.description}
           </span>
@@ -54,12 +62,12 @@ export const Modal = ({ open, onClose, proyectData }: Props) => {
               </a>
             </button>
           </div>
-          <button
+          {/* <button
             onClick={() => onClose()}
             className="btn absolute top-[13%] md:top-[15%] left-[85%] md:left-[65%] "
           >
             <AiFillCloseCircle size={28} />
-          </button>
+          </button> */}
         </div>
       </div>
     </>
