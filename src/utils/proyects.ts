@@ -49,7 +49,7 @@ export const proyects: ProjectTypes[] = [
     description: `This project consists in cloning the netflix graphical interface. Replicating the functionality of sliding movies, login and saving movies in favorites.`,
     demo: "https://tmovies-app-react.netlify.app/",
     repository: "https://github.com/leasabus/netflix-clone",
-    image: "./public/assets/projects/movies.jpg",
+    image: "./assets/projects/movies.jpg",
     stack: ["React", "Vite", "Javascript"],
   },
 
