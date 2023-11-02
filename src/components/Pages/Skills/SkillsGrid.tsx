@@ -1,4 +1,3 @@
-import React from "react";
 import { SiJavascript, SiTypescript, SiReact } from "react-icons/si";
 import { FaNodeJs, FaCss3Alt, FaGithub, FaSass, FaFigma } from "react-icons/fa";
 

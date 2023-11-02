@@ -1,4 +1,3 @@
-import React from "react";
 import { SkillsDescription } from "./SkillsDescription";
 import { SkillsGrid } from "./SkillsGrid";
 

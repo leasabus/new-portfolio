@@ -1,5 +1,3 @@
-import React from "react";
-
 export const SkillsDescription = () => {
   return (
     <div className="flex flex-col items-center text-center p-4 md:items-start text-terciary">

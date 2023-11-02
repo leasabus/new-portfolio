@@ -1,4 +1,3 @@
-import React from "react";
 import { CardProject } from "../../CardProject";
 import { ProjectTypes } from "../../../types/types";
 
