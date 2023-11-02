@@ -15,10 +15,10 @@ export const Modal = ({ open, onClose, proyectData }: Props) => {
     <>
       <div
         onClick={() => onClose()}
-        className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center overflow-y-auto animate__animated animate__fadeIn "
+        className="cursor-pointer fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center overflow-y-auto animate__animated animate__fadeIn "
       >
         <div
-          className="bg-[#343a40] w-[350px] md:w-[500px] h-[400px] md:h-[450px] rounded-xl flex flex-col justify-center items-center my-auto"
+          className="bg-[#343a40] w-[350px] md:w-[500px] h-[400px] md:h-[450px] rounded-xl flex flex-col justify-center items-center text-center my-auto"
           key={proyectData.id}
         >
           <button
