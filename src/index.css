@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html , body {
+    background-color: #14141c;
+    scroll-behavior: smooth;
+    font-family: 'Fira Sans', sans-serif;
+}
+.project-image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+@media (max-width: 640px) { 
+    .project-image {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        padding: 5px;
+    }
+}
+
+section {
+    margin-top: 0px;
+    padding-top: 0px;
+}
