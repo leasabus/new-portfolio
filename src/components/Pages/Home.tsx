@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <>
       <section
-        className="text-terciary w-full mt-32 h-[300px] flex items-center justify-center md:items-start md:justify-start flex-col tracking-wider"
+        className="px-4 text-terciary w-full mt-30 h-[300px] flex items-center justify-center md:items-start md:justify-start flex-col tracking-wider"
         id="about"
       >
         <h1 className="text-4xl md:text-5xl font-bold">Hello,</h1>
@@ -14,9 +14,15 @@ export const Home = () => {
         <h2 className="text-2xl md:text-4xl font-bold mt-4">
           Front-end Developer
         </h2>
+        <h4 className="mt-2 font-bold text-center   text-text">
+          I specialize in creating web applications with React.
+        </h4>
+        <h4 className="font-bold text-text hidden md:flex">
+          Always looking for new challenges and exciting projects.
+        </h4>
         <h4 className="text-xl text-text mt-4"></h4>
 
-        <div className="flex flex-row items-center mt-6 gap-6 text-secondary">
+        <div className="flex flex-row items-center mt-4 gap-6 text-secondary">
           <a
             className="cursor-pointer hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 hover:text-terciary"
             href="https://github.com/leasabus"
