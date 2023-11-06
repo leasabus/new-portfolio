@@ -7,8 +7,8 @@ import { Skills } from "./components/Pages/Skills/Skills";
 const App = () => {
   return (
     <>
-      <Navbar />
       <div className="flex flex-col container max-w-[1000px] h-auto gap-40 ">
+        <Navbar />
         <Home />
         <Projects />
         <Skills />

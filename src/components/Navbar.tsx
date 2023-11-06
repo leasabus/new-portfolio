@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <section className=" text-terciary h-[50px] md:h-[80px] w-full flex flex-row  justify-between items-center py-8 xl:px-40 md:px-20  bg-primary ">
+      <section className=" text-terciary h-[50px] md:h-[80px] w-full flex flex-row  justify-between items-center py-4  bg-primary ">
         <div className="flex flex-row items-center text-center gap-2 p-2">
           <span className="text-secondary font-bold text-3xl">Leandro</span>
           <span>
