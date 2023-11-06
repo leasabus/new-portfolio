@@ -40,8 +40,8 @@ export const ContactForm = () => {
       <h1 className="md:hidden text-5xl font-bold text-secondary">
         Contact Me
       </h1>
-      <h3 className="md:hidden text-xl text-terciary mt-4">
-        Let's make your project a reality!
+      <h3 className="md:hidden text-2xl  text-terciary mt-4">
+        Let's work together!
       </h3>
 
       <form

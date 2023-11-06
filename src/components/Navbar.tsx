@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <section className=" text-terciary h-[50px] md:h-[80px] w-full flex flex-row  justify-between items-center py-4  bg-primary ">
+      <section className=" text-terciary h-[80px] w-full flex flex-row  justify-between items-center py-4  bg-primary ">
         <div className="flex flex-row items-center text-center gap-2 p-2">
           <span className="text-secondary font-bold text-3xl">Leandro</span>
           <span>
@@ -61,7 +61,7 @@ export const Navbar = () => {
       <section
         className={
           !nav
-            ? " top-0 w-[60%] h-[350px] border-r border-r-secondary bg-secondary text-terciary ease-in-out duration-500 rounded flex flex-col"
+            ? "fixed top-0 w-[65%] h-[350px] border-r border-r-secondary bg-secondary text-terciary ease-in-out duration-500 rounded flex flex-col"
             : "fixed left-[100%]"
         }
       >
